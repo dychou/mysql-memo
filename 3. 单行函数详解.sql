@@ -42,6 +42,9 @@ select round(123.656);
 
 -- 2>. round(num, positon):对参数数据指定位置进行四舍五入的操作
 select round(123.456, -1);
+-- 120
+select round(123.456, 2);
+-- 123.46
 
 -- 3>. mod(num1, num2):求两个参数取余数(取模)的结果
 select mod(10, 4);
